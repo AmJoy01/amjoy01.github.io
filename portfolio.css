@@ -1,0 +1,150 @@
+
+html, body{
+    height: 100vh;
+    width: 98vw;
+    background-color: #F1F3F3;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.left-nav :not(:first-child){
+    padding-top: 0.8em;
+}
+
+.right-list{
+    padding-top: 0.8em;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.left-nav :first-child{
+    padding-top: 6px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.left-nav :not(:first-child){
+    margin-left: 2em;
+}
+
+.right-nav :not(:last-child){
+    margin-right: 2em;
+}
+
+.circle{
+    margin-right: 10px;
+    height: 16px;
+    width: 20px;
+    background-color: #547092;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 500ms ease-in;
+}
+
+.circle:hover{
+    background-color: #EE6C4C;
+} 
+
+.right{
+    transition: color 500ms ease-in;
+}
+
+.right:hover {
+    color: #EE6C4C;
+}
+
+/* Portfolio */
+
+main{
+    padding-top: 4em;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.profile-pic{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+img{
+    width: 80%;
+    height: auto;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+section{
+    width: 30vw;
+}
+
+h1{
+    font-size: 6em;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+menu{
+    margin-top: 4em;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    width: 140px;
+    height: 140px;
+    border-style: groove;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    transition: background-color 500ms ease-in;
+}
+
+.resume{
+    background-color: #547092;
+}
+.projects{
+    background-color: #EE6C4C;
+    
+}
+.contact{
+    background-color: #A7CADE;
+}
+
+button:hover{
+    background-color: #F1F3F3;
+    cursor: pointer;
+}
+
+
+/* Footer */
+footer{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
